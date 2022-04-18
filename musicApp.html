@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,regular,500,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/css/musicApp.css" />
+    <title>Music App</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header id="header">
+        <div class="header__flexBox">
+          <h2 class="header__title">souaMusic App</h2>
+          <div class="iconList__box">
+            <img
+              src="./src/icons/openList.svg"
+              alt="Error"
+              class="iconList__iconOpenList"
+            />
+          </div>
+        </div>
+      </header>
+
+      <main id="main">
+        <div class="infoSong">
+          <div class="infoSong__imgBox">
+            <img
+              src="./src/img/Cascade.jpg"
+              alt="Error"
+              height="290"
+              width="290"
+              class="imgBox__img"
+            />
+          </div>
+          <div class="infoSong__textBox">
+            <p class="textBox__titleSong">Cascade</p>
+            <p class="textBox__singerSong">Plenka</p>
+          </div>
+        </div>
+        <audio src="./src/audio/Plenka.mp3" class="srcAudioSong"></audio>
+        <div class="rangeBox">
+          <div class="rangeBox__range"></div>
+        </div>
+        <div class="navbar">
+          <div class="navbar__prevArrow">
+            <img
+              src="./src/icons/prevArrow_navbar.svg"
+              alt="Error"
+              class="prevArrow__icon"
+            />
+          </div>
+          <div class="navbar__playAndPause">
+            <img
+              src="./src/icons/play_navbar.svg"
+              alt="Error"
+              class="play__icon"
+            />
+          </div>
+          <div class="navbar__nextArrow">
+            <img
+              src="./src/icons/nextArrow_navbar.svg"
+              alt="Error"
+              class="nextArrow__icon"
+            />
+          </div>
+        </div>
+        <section class="musicList">
+          <div class="musicList__header">
+            <h3 class="musicList__title">Music list</h3>
+            <div class="musicList__iconCloseList">
+              <img
+                src="./src/icons/closeList_arrow.svg"
+                alt="Error"
+                class="iconCloseList__icon"
+              />
+            </div>
+          </div>
+          <ul class="musicList__list"></ul>
+        </section>
+      </main>
+    </div>
+    <script src="./js/arraySongs.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

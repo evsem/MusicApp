@@ -1,0 +1,21 @@
+#header {
+  font-family: "Montserrat";
+}
+#header .header__flexBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#header .header__flexBox .header__title {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}

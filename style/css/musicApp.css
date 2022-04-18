@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 120px auto;
+  padding: 26px 15px 30px;
+  font-family: "Montserrat";
+  background-color: #303030;
+  width: 320px;
+  height: 568px;
+}
+.wrapper #header {
+  font-family: "Montserrat";
+  margin-bottom: 26px;
+}
+.wrapper #header .header__flexBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper #header .header__flexBox .header__title {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.wrapper #header .header__flexBox .iconList__box {
+  margin-top: 3px;
+}
+.wrapper #header .header__flexBox .iconList__box .iconList__iconOpenList {
+  cursor: pointer;
+}
+.wrapper #main .infoSong {
+  margin-bottom: 25px;
+}
+.wrapper #main .infoSong .infoSong__imgBox {
+  margin-bottom: 16px;
+}
+.wrapper #main .infoSong .infoSong__imgBox .imgBox__img {
+  width: 100%;
+}
+.wrapper #main .infoSong .infoSong__textBox {
+  color: #ffffff;
+  padding: 0 10px;
+}
+.wrapper #main .infoSong .infoSong__textBox .textBox__titleSong {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+.wrapper #main .infoSong .infoSong__textBox .textBox__singerSong {
+  font-weight: 300;
+  font-size: 20px;
+}
+.wrapper #main .rangeBox {
+  margin: 0px auto 32px;
+  width: 270px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.wrapper #main .rangeBox .rangeBox__range {
+  width: 0;
+  height: 4px;
+  background-color: #5bb9ee;
+  border-radius: 3px;
+}
+.wrapper #main .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 35px;
+}
+.wrapper #main .navbar .navbar__prevArrow .prevArrow__icon {
+  cursor: pointer;
+}
+.wrapper #main .navbar .navbar__playAndPause .play__icon {
+  cursor: pointer;
+}
+.wrapper #main .navbar .navbar__nextArrow .nextArrow__icon {
+  cursor: pointer;
+}
+.wrapper #main .musicList {
+  padding: 15px;
+  background-color: #141414;
+  border-radius: 2px;
+  opacity: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.wrapper #main .musicList.open {
+  opacity: 1;
+  position: relative;
+  -webkit-transform: translateY(-488px);
+          transform: translateY(-488px);
+}
+.wrapper #main .musicList .musicList__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 16px;
+}
+.wrapper #main .musicList .musicList__header .musicList__title {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.wrapper #main .musicList .musicList__header .musicList__iconCloseList .iconCloseList__icon {
+  cursor: pointer;
+}
+.wrapper #main .musicList .musicList__list {
+  list-style: none;
+}
+.wrapper #main .musicList .musicList__list .musicList__item {
+  background-color: #2d2d2d;
+  border-radius: 2px;
+  padding: 9px 16px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.wrapper #main .musicList .musicList__list .musicList__item:last-child {
+  margin: 0;
+}
+.wrapper #main .musicList .musicList__list .musicList__item .item__infoSong .item__titleSong {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 4px;
+}
+.wrapper #main .musicList .musicList__list .musicList__item .item__infoSong .item__singerSong {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.wrapper #main .musicList .musicList__list .musicList__item .item_durationSong {
+  font-weight: 300;
+  font-size: 16px;
+}
