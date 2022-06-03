@@ -1,12 +1,12 @@
 #header {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   margin-bottom: 26px;
   .header__flexBox {
     display: flex;
     justify-content: space-between;
     align-items: center;
     .header__title {
-      font-family: 'Montserrat';
+      font-family: "Montserrat";
       font-weight: 300;
       font-size: 20px;
       letter-spacing: 2px;
@@ -84,5 +84,5 @@
     }
   }
 
-  @import 'musicList.scss';
+  @import "musicList.scss";
 }
