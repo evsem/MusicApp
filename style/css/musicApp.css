@@ -134,6 +134,8 @@
   color: #ffffff;
 }
 .wrapper #main .musicList .musicList__header .musicList__iconCloseList .iconCloseList__icon {
+  width: 80%;
+  height: 80%;
   cursor: pointer;
 }
 .wrapper #main .musicList .musicList__list {
