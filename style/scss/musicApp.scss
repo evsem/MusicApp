@@ -5,13 +5,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #303030;
+}
+
 .wrapper {
   margin: 120px auto;
   padding: 26px 15px 30px;
   font-family: "Montserrat";
+  background-color: #444444;
+  border: none;
+  border-radius: 2px;
   overflow: hidden;
-  background-color: #303030;
-  width: 320px;
+  max-width: 320px;
   height: 568px;
 
   @import "mainAndHeader.scss";

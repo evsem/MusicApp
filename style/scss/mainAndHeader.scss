@@ -6,11 +6,11 @@
     justify-content: space-between;
     align-items: center;
     .header__title {
-      font-family: "Montserrat";
+      font-family: "Ubuntu";
       font-weight: 300;
       font-size: 20px;
       letter-spacing: 2px;
-      color: #ffffff;
+      color: #e0e0e0;
     }
     .iconList__box {
       margin-top: 3px;
@@ -28,12 +28,15 @@
     margin-bottom: 25px;
     .infoSong__imgBox {
       margin-bottom: 16px;
+
       .imgBox__img {
         width: 100%;
+        border: none;
+        border-radius: 2px;
       }
     }
     .infoSong__textBox {
-      color: #ffffff;
+      color: #e0e0e0;
       padding: 0 10px;
       .textBox__titleSong {
         font-weight: 400;
@@ -51,7 +54,7 @@
     margin: 0px auto 32px;
     width: 270px;
     height: 4px;
-    background-color: #ffffff;
+    background-color: #e0e0e0;
     border-radius: 3px;
     cursor: pointer;
     .rangeBox__range {
